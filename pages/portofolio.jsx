@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
-import DX from '../public/DX.png'
-import Palapa from '../public/Palapa.png'
+import DX from '../assets/image/DX.png';
+import Palapa from '../assets/image/Palapa.png';
 import Head from 'next/head';
 
 export default function Portofolio() {
