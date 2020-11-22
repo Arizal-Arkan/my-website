@@ -1,7 +1,7 @@
 // next.config.js
 const withImages = require("next-images");
 module.exports = {
-  assetPrefix: "/wallisconsultancy/",
+  assetPrefix: "/my-website/",
 };
 
 module.exports = withImages();
