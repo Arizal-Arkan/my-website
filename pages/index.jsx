@@ -1,9 +1,12 @@
 import Link from 'next/link'
-import HeroImg from '../assets/image/arkan.svg';
+import HeroImg from '../public/arkan.svg';
 import Navbar from '../components/Navbar';
+import Image from 'next/image';
 import Head from "next/head";
+import getConfig from 'next/config'
 
 export default function Home() {
+  const { publicRuntimeConfig } = getConfig()
   return (
     <>
       <Head>
@@ -22,6 +25,7 @@ export default function Home() {
 
           <div className="img-wrapper">
             <img src={HeroImg} alt="hero image" className="img-hero" />
+            {/* <Image src={HeroImg} alt='arkan' width="200" height="64" /> */}
           </div>
         </div>
       </section>
